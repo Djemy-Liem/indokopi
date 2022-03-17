@@ -1,19 +1,19 @@
-import { styled } from "@mui/material/styles"
-import { deepPurple } from "@mui/material/colors"
+import { styled } from '@mui/material/styles'
+import { deepPurple } from '@mui/material/colors'
 
-const PREFIX = "NavBar"
+const PREFIX = 'NavBar'
 export const classes = {
-    root: `${PREFIX}-root`,
-    appBar: `${PREFIX}-appBar`,
-    heading: `${PREFIX}-heading`,
-    logo: `${PREFIX}-logo`,
-    toolbar: `${PREFIX}-toolbar`,
-    profile: `${PREFIX}-profile`,
-    logout: `${PREFIX}-logout`,
-    userName: `${PREFIX}-userName`,
-    brandContainer: `${PREFIX}-brandContainer`,
-    avatar: `${PREFIX}-avatar`,
-    avaatar: `${PREFIX}-avaatar`,
+	root: `${PREFIX}-root`,
+	appBar: `${PREFIX}-appBar`,
+	heading: `${PREFIX}-heading`,
+	logo: `${PREFIX}-logo`,
+	toolbar: `${PREFIX}-toolbar`,
+	profile: `${PREFIX}-profile`,
+	logout: `${PREFIX}-logout`,
+	userName: `${PREFIX}-userName`,
+	brandContainer: `${PREFIX}-brandContainer`,
+	avatar: `${PREFIX}-avatar`,
+	avaatar: `${PREFIX}-avaatar`,
 }
 
 export const Root = styled('div')(({ theme }) => ({
@@ -21,7 +21,6 @@ export const Root = styled('div')(({ theme }) => ({
 		paddingRight: '10px',
 	},
 	[`& .${classes.avaatar}`]: {
-        
 		margin: theme.spacing(1),
 		height: '50px',
 		width: '50px',

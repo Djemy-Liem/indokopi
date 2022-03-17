@@ -11,7 +11,7 @@ import Icon from './Icon'
 import UserIcon from './UserIcon/UserIcon'
 
 const initialState = { firstName: '', lastName: '', email: '', password: '', confirmPassword: '' }
-const CLIENT_ID = '851540640975-8gkbav5m3n6mto5hrmpvppf1v7un7jrl.apps.googleusercontent.com'
+const CLIENT_ID = '474367033064-j9aeq74a2i9n978cld8o75l3cf74b8p1.apps.googleusercontent.com'
 
 const Auth = () => {
 	const [showPassword, setShowPassword] = useState(false)

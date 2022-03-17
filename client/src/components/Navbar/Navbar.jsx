@@ -14,7 +14,7 @@ const Navbar = ({ user, setUser }) => {
 	const history = useNavigate()
 	const location = useLocation()
 	const userIsinAuth = location.pathname === '/auth'
-	
+
 	const logout = useCallback(() => {
 		dispatch({ type: 'LOGOUT' })
 		history('/')
@@ -33,7 +33,7 @@ const Navbar = ({ user, setUser }) => {
 		<Root className={classes.root}>
 			<AppBar className={classes.appBar} position="static">
 				<Link to="/" className={classes.brandContainer}>
-					<img className={classes.logo} src={icon} alt="memories" height="60" />
+					<img className={classes.logo} src={icon} alt="memories" height="100" />
 					<img className={classes.heading} src={memories} alt="memories" height="100" />
 				</Link>
 				<Toolbar className={classes.toolbar}>

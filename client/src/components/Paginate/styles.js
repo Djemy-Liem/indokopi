@@ -11,19 +11,19 @@ export const classes = {
 export const Root = styled('div')({
 	[`& .${classes.root}`]: {
 		'& .Mui-disabled': {
-			color: 'white',
+			color: 'black',
 		},
 		'&. MuiButtonBase-root-MuiPaginationItem-root': {
 			border: '1px solid white',
-			color: 'white',
+			color: 'black',
 		},
 	},
 	[`& .${classes.ul}`]: {
 		justifyContent: 'space-around',
-        color: 'white',
-        opacity: 1,
+		color: 'black',
+		opacity: 1,
 		'& .Mui-disabled ': {
-			color: 'white',
+			color: 'black',
 			opacity: 0.5,
 		},
 	},

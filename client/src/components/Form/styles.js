@@ -19,7 +19,7 @@ export const Root = styled('div')(({ theme }) => ({
 			margin: theme.spacing(0.5, 0),
 		},
 		'& .MuiFormLabel-root': {
-			color: 'white',
+			color: 'black',
 		},
 		'& .MuiChip-filled': {
 			background: '#ffffff70',
@@ -31,7 +31,7 @@ export const Root = styled('div')(({ theme }) => ({
 			margin: theme.spacing(0.5, 0),
 		},
 		'& .MuiFormLabel-root': {
-			color: 'white',
+			color: 'black',
 		},
 		'& .MuiChip-filled': {
 			background: '#ffffff70',
@@ -42,7 +42,7 @@ export const Root = styled('div')(({ theme }) => ({
 		marginBottom: '1rem',
 		display: 'flex',
 		padding: theme.spacing(2),
-		color: 'white',
+		color: 'black',
 	},
 	[`& .${classes.paper}`]: {
 		padding: theme.spacing(2),
